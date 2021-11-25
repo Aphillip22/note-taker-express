@@ -1,9 +1,11 @@
 # Note Taker
-  -[Description](#description)
-  -[Installation](#installation)
-  -[Usage](#usage)
-  -[Contributing](#contributing)
-  -[Contact](#contact)
+  -[Description](#description)  
+  -[Installation](#installation)  
+  -[Usage](#usage)  
+  -[Contributing](#contributing)  
+  -[Contact](#contact)  
+  -[Images](#images)  
+  -[Links](#links)
   # Description
   This app is intended to make daily organization a little bit easier with providing a simple note taking service.
   # Installation
