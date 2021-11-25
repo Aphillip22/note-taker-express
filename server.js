@@ -1,8 +1,8 @@
 //require all routes and packages
 const express = require("express");
 const app =express()
-const htmlroutes=require("./routing/htmlroutes")
-const apiroutes=require("./routing/apiroutes")
+const htmlroutes=require("./routing/html-routes")
+const apiroutes=require("./routing/api-routes")
 
 //create a port
 const PORT = process.env.PORT || 3001;
@@ -10,8 +10,8 @@ const PORT = process.env.PORT || 3001;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
-app.use("/api",api-routes)
-app.use("/",html-routes)
+app.use("/api",apiroutes)
+app.use("/",htmlroutes)
 
 
 
