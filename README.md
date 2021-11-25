@@ -40,9 +40,9 @@
   For any questions or to discuss this project further, please reach out at amber.rain.phillips@gmail.com or Aphillip22
   # Images
   Home Page  
-    
+  ![image](https://user-images.githubusercontent.com/87291933/143381452-b1aef9d1-8639-46c1-93bc-95067c8f3908.png)
   Note Page  
-    
+  ![image](https://user-images.githubusercontent.com/87291933/143381492-248b460c-e72b-4972-aa47-603220512663.png)
   # Links
   Heroku: https://polar-retreat-49535.herokuapp.com/  
   Github Repo: https://github.com/Aphillip22/note-taker-express.git
