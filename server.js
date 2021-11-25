@@ -1,16 +1,19 @@
+//require all routes and packages
 const express = require("express");
+const app =express()
+const htmlroutes=require("./routing/htmlroutes")
+const apiroutes=require("./routing/apiroutes")
 
-const app = express();
+//create a port
+const PORT = process.env.PORT || 3001;
 
-const PORT = process.env.PORT || 8080;
-
-app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static("./public/"));
+app.use(express.urlencoded({ extended: true }));
+app.use(express.static('public'));
+app.use("/api",api-routes)
+app.use("/",html-routes)
 
-require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
 
-app.listen(PORT, function() {
-    console.log("App listening on PORT: " + PORT);
-});
+
+// Start the server on the port
+app.listen(PORT, () => console.log(`Listening on PORT: ${PORT}`));
